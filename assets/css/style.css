@@ -1,0 +1,190 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #fafafa;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  /* background-color: red; */
+  flex-wrap: wrap;
+}
+.left{
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  
+}
+.left img{
+  width: 45%; 
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+  /* background-color: saddlebrown; */
+  margin-left: 25px;
+}
+
+.group-login{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 60%;
+  border: 1px solid #dbdbdb;
+  border-radius: 2px;
+}
+.group-login .logo{
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.group-login .btn{
+  background-color: #0095f6;
+  color: #fff;
+  padding: 10px;
+  width: 80%;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.group-login .text-fieldset{
+  border-top: 1px solid #ccc ;
+  border-bottom: none;
+  border-left: none;
+  border-right: none ;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+}
+.group-login .text-fieldset legend{
+  padding: 5px 10px;
+}
+.group-login .login-face{
+  width: 80%;
+  text-align: center;
+}
+.group-login .login-face .icon{
+  color: #fff;
+  font-size: 20px;
+  background-color: #385185;
+}
+.group-login .login-face p{
+  color: #385185;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.login-face .login-senha a{
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #00376b;
+  font-weight: 300;
+}
+
+.group-login .group-item input{
+  outline: none;
+  border: none;
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 5px;
+}
+.group-login .group-item label{
+  display: inline-block;
+  color: #b8b8b8;
+  padding-left: 5px;
+  font-size: 16px;
+}
+.group-item{
+  border: 1px solid #a3a3a3;
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.group-cadastre{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF;
+  width: 60%;
+  border: 1px solid #dbdbdb;
+  border-radius: 2px;
+  padding: 25px;
+}
+.group-cadastre a{
+  text-decoration: none;
+  color: #0095f6;
+  font-weight: 700;
+}
+
+.group-download{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%; 
+}
+.group-download .img-app{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.group-download .img-app img{
+  width: 100%;
+  margin-top: 15px;
+}
+
+.group-download .img-app .app-store{
+  width: 40%;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.group-download .img-app .google-play{
+  width: 40%;
+  cursor: pointer;
+}
+
+
+@media (max-width: 1366px){
+  .left img{
+    width: 70%;
+    height: 100Vh;
+  }
+  .group-download{
+    width: 70%;
+  }
+  .group-cadastre{
+    width: 70%;
+  }
+  .group-login{
+    width: 70%;
+  }
+
+}
